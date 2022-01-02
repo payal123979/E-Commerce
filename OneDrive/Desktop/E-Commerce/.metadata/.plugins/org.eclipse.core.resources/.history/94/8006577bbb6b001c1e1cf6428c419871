@@ -1,0 +1,28 @@
+package com.ecommerce.registration.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.lang.NonNull;
+
+@Entity
+@Table(name = "registration")
+public class RegistrationEntity {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private long userId;
+	@Column(name = "email")
+	private String email;
+	@Column(name = "fullname")
+	private String fullname;
+	@Column(name = "mobileNo")
+	private String mobileNo;
+	@Column(name = "password")
+	
+	private String password;
+}

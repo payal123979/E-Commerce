@@ -1,0 +1,5 @@
+package com.ecommerce.registration.entities;
+
+public class RegistrationEntity {
+
+}

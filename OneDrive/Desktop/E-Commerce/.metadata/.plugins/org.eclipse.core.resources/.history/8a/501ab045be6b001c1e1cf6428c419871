@@ -1,0 +1,15 @@
+package com.ecommerce.registration.service;
+
+import com.ecommerce.registration.entities.RegistrationEntity;
+
+public class RegistrationServiceImpl implements RegistrationService {
+
+	@Override
+	public String saveRegistrationDetails(RegistrationEntity registerDetails) {
+		
+		return null;
+	}
+	
+	
+
+}

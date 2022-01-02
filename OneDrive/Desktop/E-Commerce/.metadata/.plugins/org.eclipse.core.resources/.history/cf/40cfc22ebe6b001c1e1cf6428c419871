@@ -1,0 +1,5 @@
+package com.ecommerce.registration.service;
+
+public interface RegistrationService {
+
+}

@@ -1,0 +1,15 @@
+package com.ecommerce.registration.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "registration")
+public class RegistrationEntity {
+
+	private long userId;
+	private String email;
+	private String fullname;
+	private String mobileNo;
+	private String password;
+}

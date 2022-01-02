@@ -1,0 +1,13 @@
+package com.ecommerce.registration;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class RegistartionController {
+
+	@PostMapping("/register")
+	public 
+	
+	
+}
